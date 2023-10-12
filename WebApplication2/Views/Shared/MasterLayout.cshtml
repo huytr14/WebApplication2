@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/Content/style.css" />
+    <title>Thế Giới Di Động</title>
+</head>
+<body>
+    <header>
+        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/09/banner/IP15-1200-44-1200x44.png" alt="" />
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="~/Views/Home/TrangChu.cshtml"><img style="width:228px;height=40px" src="https://cdn.haitrieu.com/wp-content/uploads/2021/11/Logo-The-Gioi-Di-Dong-MWG-B-H.png" alt="" /></a></li>
+                <li><a href="">Đà Nẵng<i class="fas fa-sort-down"></i></a></li>
+                <li><input type="text" /><i class="fas fa-search"></i></li>
+                <li><a href="">Tài khoản & <br /> đơn hàng</a></li>
+                <li><a href=""></a><button><i class="fas fa-shopping-cart"></i>Giỏ hàng</button></li>
+                <li><a href="">24h <br /> Công nghệ</a></li>
+                <li><a href="">Hỏi đáp</a></li>
+                <li><a href="">Game app</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href=""><i class="fas fa-mobile"></i>Điện thoại</a></li>
+                    <li><a href=""><i class="fas fa-laptop"></i>Laptop</a></li>
+                    <li><a href=""><i class="fas fa-tablet"></i>Tablet</a></li>
+                    <li><a href=""><i class="fa fa-headphones"></i>Phụ kiện<i style ="margin-left:4px;"class="fas fa-sort-down"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-clock"></i>Smartwatch</a></li>
+                    <li><a href=""><i class="fas fa-stopwatch"></i>Đồng hồ</a></li>
+                    <li><a href=""><i class='fas fa-mobile-alt'></i>Máy cũ giá rẻ</a></li>
+                    <li><a href=""><i class="fa-solid fa-computer"></i>PC, Máy in</a></li>
+                    <li><a href="">Sim, thẻ cào</i></a></li>
+                    <li><a href="">Dịch vụ tiện ích<i style ="margin-left:4px;"class="fas fa-sort-down"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
